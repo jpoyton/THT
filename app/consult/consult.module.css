@@ -24,7 +24,7 @@
 }
 
 .backLink {
-  color: rgb(37, 99, 235);
+  color: var(--wc-green);
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -69,7 +69,7 @@
 
 .progressFill {
   height: 100%;
-  background: rgb(37, 99, 235);
+  background: var(--wc-green);
   transition: width 0.3s;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .navItemActive {
-  background: rgb(37, 99, 235);
+  background: var(--wc-green);
   color: white;
   font-weight: 600;
 }
@@ -218,7 +218,7 @@
 .promptItem {
   padding: 1rem;
   background: rgb(239, 246, 255);
-  border-left: 4px solid rgb(37, 99, 235);
+  border-left: 4px solid var(--wc-green);
   border-radius: 4px;
   color: rgb(31, 41, 55);
   line-height: 1.6;
@@ -388,7 +388,7 @@
 }
 
 .nextButton {
-  background: rgb(37, 99, 235);
+  background: var(--wc-green);
   color: white;
   flex: 1;
 }
@@ -482,7 +482,7 @@
   width: 100%;
   padding: 0.875rem;
   margin-top: 1rem;
-  background: rgb(37, 99, 235);
+  background: var(--wc-green);
   color: white;
   border: none;
   border-radius: 8px;
@@ -550,7 +550,7 @@
 }
 
 .homeButton {
-  background: rgb(37, 99, 235);
+  background: var(--wc-green);
   color: white;
   border: none;
   display: block;

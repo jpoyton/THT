@@ -17,6 +17,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.hero}>
+        <div className={styles.logoContainer}>
+          <img
+            src="/well-centre-logo.png"
+            alt="Well Centre Charity"
+            className={styles.logo}
+          />
+        </div>
         <h1 className={styles.title}>Teen Health Talk</h1>
         <p className={styles.subtitle}>Well Centre Model - GP Crib Sheet</p>
         <p className={styles.description}>

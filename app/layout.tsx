@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Teen Health Talk - Well Centre Model',
   description: 'GP Crib Sheet for structured youth health conversations',
   manifest: '/manifest.json',
-  themeColor: '#2563eb',
+  themeColor: '#55B04E',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   appleWebApp: {
     capable: true,
